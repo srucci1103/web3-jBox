@@ -1,0 +1,1 @@
+import Speckle from"../../../../dist/js/speckle";new Speckle(document.querySelector("#hero"),{quantity:25,minSize:128,maxSize:256,tbOffset:20,lrOffset:20});

@@ -1,0 +1,37 @@
+#hero{
+    h1{
+        font-size: 5rem;
+        margin: 10% 0 10%;
+        text-align: center;
+    }
+    section{
+    display: grid;
+    grid-template-areas: ". tooltip modal notice confirm .";
+    grid-template-columns: "auto 10% 10% 10% 10% auto";
+    grid-gap: 50px;
+    div{
+        text-align: center;
+        padding: 30px;
+        font-weight: 600;
+        font-size: 1.75rem;
+        color: $white;
+        border-radius: 5px;
+    }
+        #tooltip{
+            grid-area: tooltip;
+            background-color: $teal;
+        }
+        #modal{
+            grid-area: modal;
+            background-color: $blue;
+        }
+        #notice{
+            grid-area: notice;
+            background-color: $purple;
+        }
+        #confirm{
+            grid-area: confirm;
+            background-color: $pink;
+        }
+}
+}
