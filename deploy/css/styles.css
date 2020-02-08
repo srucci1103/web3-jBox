@@ -358,32 +358,66 @@ textarea {
 /* =============
     Footer
 ============= */
-#hero h1 {
-  font-size: 5rem;
-  margin: 10% 0 10%;
-  text-align: center; }
+#hero {
+  height: 100vh; }
+  #hero h1 {
+    font-size: 5rem;
+    margin: 10% 0;
+    text-align: center; }
+  #hero section {
+    display: grid;
+    grid-template-areas: ". tooltip modal notice confirm .";
+    grid-template-columns: "auto 10% 10% 10% 10% auto";
+    grid-gap: 50px; }
+    #hero section div {
+      text-align: center;
+      padding: 30px;
+      font-weight: 600;
+      font-size: 1.75rem;
+      color: #fff;
+      border-radius: 5px;
+      transition: 0.25s; }
+    #hero section div:hover {
+      background-color: #000 !important; }
+    #hero section button:hover {
+      background-color: #000 !important; }
+    #hero section #tooltip {
+      grid-area: tooltip;
+      background-color: #38D8D4; }
+    #hero section #modal {
+      grid-area: modal;
+      background-color: #2173E5; }
+    #hero section #notice {
+      grid-area: notice;
+      background-color: #B838E5;
+      transition: 0.25s;
+      text-align: center;
+      padding: 30px;
+      font-weight: 600;
+      font-size: 1.75rem;
+      color: #fff;
+      border-radius: 5px; }
+    #hero section #confirm {
+      grid-area: confirm;
+      background-color: #EC2DD8; }
 
-#hero section {
-  display: grid;
-  grid-template-areas: ". tooltip modal notice confirm .";
-  grid-template-columns: "auto 10% 10% 10% 10% auto";
-  grid-gap: 50px; }
-  #hero section div {
-    text-align: center;
-    padding: 30px;
-    font-weight: 600;
-    font-size: 1.75rem;
-    color: #fff;
-    border-radius: 5px; }
-  #hero section #tooltip {
-    grid-area: tooltip;
-    background-color: #38D8D4; }
-  #hero section #modal {
-    grid-area: modal;
-    background-color: #2173E5; }
-  #hero section #notice {
-    grid-area: notice;
-    background-color: #B838E5; }
-  #hero section #confirm {
-    grid-area: confirm;
-    background-color: #EC2DD8; }
+#download {
+  align-items: center;
+  background-color: #EC2DD8;
+  display: flex;
+  height: 100vh;
+  justify-content: center; }
+  #download a:link,
+  #download a:visited {
+    background-color: white;
+    border-radius: 15px;
+    color: #000;
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 3rem;
+    text-decoration: none;
+    transition: 0.25s; }
+  #download a:active,
+  #download a:hover {
+    background-color: #000;
+    color: #EC2DD8; }

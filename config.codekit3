@@ -46,6 +46,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/download.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/download.html",
+		"oF": 0
+		},
 	"/dev/hero.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -214,7 +222,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_download.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -222,7 +230,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_download.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

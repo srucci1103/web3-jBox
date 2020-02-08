@@ -8,6 +8,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:500,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- jBox Styles -->
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.6/dist/jBox.all.min.css" rel="stylesheet">
     <title>jBox</title>
 </head>
 
@@ -15,21 +17,25 @@
     <div id="hero">
         <h1>jBox</h1>
         <section>
-            <div id="tooltip" class=".tooltip" title="My tooltip">
+            <div id="tooltip" class=".tooltip" title="When you hover this happens!">
                 Hover me!
             </div>
             <div id="modal">
                 Click me!
             </div>
-            <div id="notice">
+            <button id="notice" onclick="demoNotice()">
                 Click me!
-            </div>
-            <div id="confirm" onclick="doit()" data-confirm="Do you really want to do this?">
+            </button>
+            <div id="confirm" onclick="doit()" data-confirm="You just triggered this window!">
                 Click me!
             </div>
         </section>
     </div>
     
+    <div id="download">
+            <a id="downloadbutton" href="https://github.com/StephanWagner/jBox/releases">Download here!</a>
+        </div>
+        
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
