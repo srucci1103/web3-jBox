@@ -261,6 +261,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/works.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/works.html",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
